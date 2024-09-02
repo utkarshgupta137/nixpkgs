@@ -10,11 +10,11 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "karabiner-elements";
-  version = "15.0.0";
+  version = "14.13.0";
 
   src = fetchurl {
     url = "https://github.com/pqrs-org/Karabiner-Elements/releases/download/v${finalAttrs.version}/Karabiner-Elements-${finalAttrs.version}.dmg";
-    hash = "sha256-xWCsbkP9cVnDjWFTgWl5KrR7wEpcQYM4Md99pTI/l14=";
+    sha256 = "sha256-gmJwoht/Tfm5qMecmq1N6PSAIfWOqsvuHU8VDJY8bLw=";
   };
 
   outputs = [
